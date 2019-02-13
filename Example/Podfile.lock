@@ -1,0 +1,16 @@
+PODS:
+  - FMFColor (0.1.0)
+
+DEPENDENCIES:
+  - FMFColor (from `../`)
+
+EXTERNAL SOURCES:
+  FMFColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMFColor: 0684c726f6289c9bccdd25f0cf7170b822e90817
+
+PODFILE CHECKSUM: a6feeab45bdd6ad2ba45d387665fcad1205a0ae9
+
+COCOAPODS: 1.6.0

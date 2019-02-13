@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AD593D7D5A12C7D869347E9DD25F894 /* FMFHighColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5847B1E5254F58FD15DC6A1E9016D /* FMFHighColor.m */; };
+		0DF2686D21C7FE02DD9282A398AB89EB /* FMFHighColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AC45E194E1222C79670B514089001E0D /* FMFHighColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE160A763064D898170B0AF20BF7D5B /* Pods-FMFColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E7756F7C05BC9B97C224B29A674EF8 /* Pods-FMFColor_Tests-dummy.m */; };
+		48C120E3A8E5C64832DF526E889B94A1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B511E572506D8D1F67A5F0E82596A811 /* ReplaceMe.m */; };
+		977253FDD0DF2A2E84B6F4CED9B0B55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C37BD9273E17E6CB39DA6C1A6F46EEA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C7D6A381A6D3BFA964F0E2972B670CAE /* FMFColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB6262E4F8832BBC70617099632E910 /* FMFColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C816860A9E9E7827C2A966DA9F16F19F /* FMFColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2505C25A2F7AC4206E54462A7F2925EA /* FMFColor-dummy.m */; };
+		DB098830727DBA689E4F834A344E0D41 /* Pods-FMFColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA783231ED40E84E70B986761FDDF3D5 /* Pods-FMFColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE68C2E78D29A6BC67EF752EAB5AF015 /* FMFColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6612A9BFCFC56A8843EF48F1D46545 /* FMFColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7DC2285D2C84D98C97FC40518E8BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E15B14791C77CDFB899B0A8772374C9;
+			remoteInfo = FMFColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14446595AF84001EE029E59F9186749F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15E7756F7C05BC9B97C224B29A674EF8 /* Pods-FMFColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FMFColor_Tests-dummy.m"; sourceTree = "<group>"; };
+		2505C25A2F7AC4206E54462A7F2925EA /* FMFColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMFColor-dummy.m"; sourceTree = "<group>"; };
+		27573A13F2C192F6F565E18A44653FFF /* FMFColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMFColor-prefix.pch"; sourceTree = "<group>"; };
+		3088BCE316094391671BA8A02F09B60A /* FMFColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FMFColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		317A8C780F9ADFE30E1F391E1EFE6395 /* Pods-FMFColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FMFColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E6612A9BFCFC56A8843EF48F1D46545 /* FMFColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMFColor.h; path = FMFColor/Classes/FMFColor.h; sourceTree = "<group>"; };
+		59C549DAF028B3BF9CCE44E34278DC79 /* Pods-FMFColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FMFColor_Tests.modulemap"; sourceTree = "<group>"; };
+		5B25B71C5F5070B80A3977A79F678BD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C1A53C530BC800B378C41ED0ABACD9A /* FMFColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMFColor.modulemap; sourceTree = "<group>"; };
+		5EB05A92717865F9843013FF70D869D8 /* Pods-FMFColor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFColor_Tests-Info.plist"; sourceTree = "<group>"; };
+		5FF5847B1E5254F58FD15DC6A1E9016D /* FMFHighColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FMFHighColor.m; sourceTree = "<group>"; };
+		6BB6262E4F8832BBC70617099632E910 /* FMFColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMFColor-umbrella.h"; sourceTree = "<group>"; };
+		8A36708AEC86C9B1BF893C351D4ED524 /* Pods-FMFColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C39267947C85B8430111A403ABBE682 /* Pods_FMFColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FMFColor_Tests.framework; path = "Pods-FMFColor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A44DE1F2CC4DDB8F72E5F0B3C46325 /* Pods-FMFColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FMFColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		99D7B2B84EDA34FDCC8B94DD717FB3E0 /* FMFColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMFColor.framework; path = FMFColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5AC4A9F2FCF1AE69C213A0117620F59 /* FMFColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMFColor.xcconfig; sourceTree = "<group>"; };
+		AC45E194E1222C79670B514089001E0D /* FMFHighColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMFHighColor.h; sourceTree = "<group>"; };
+		B511E572506D8D1F67A5F0E82596A811 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FMFColor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E315F9C900B6546FFC9F2113D1A2CAC4 /* FMFColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMFColor-Info.plist"; sourceTree = "<group>"; };
+		E76BE009C580AB586E523C60CF3253D5 /* Pods-FMFColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FMFColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDCAC5D34FD8AB8E80A750B9B781ED27 /* Pods-FMFColor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FMFColor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FA783231ED40E84E70B986761FDDF3D5 /* Pods-FMFColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FMFColor_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E5A020BF482813855D4D04ADC68D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977253FDD0DF2A2E84B6F4CED9B0B55B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F45DAB0B6107163DD531962C71B812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37BD9273E17E6CB39DA6C1A6F46EEA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0635E75A73DE1AB90E27E51A4B56A7C6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AC45E194E1222C79670B514089001E0D /* FMFHighColor.h */,
+				5FF5847B1E5254F58FD15DC6A1E9016D /* FMFHighColor.m */,
+			);
+			name = Categories;
+			path = FMFColor/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		076B093D0C36B833782AFC1876BD8F7A /* FMFColor */ = {
+			isa = PBXGroup;
+			children = (
+				4E6612A9BFCFC56A8843EF48F1D46545 /* FMFColor.h */,
+				B511E572506D8D1F67A5F0E82596A811 /* ReplaceMe.m */,
+				0635E75A73DE1AB90E27E51A4B56A7C6 /* Categories */,
+				6DDEDB08D61A7E71303F72637EDCB5E6 /* Pod */,
+				73647528E33ECD2C8A3212C5457D30F8 /* Support Files */,
+			);
+			name = FMFColor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3CC60051C631C04E4686218646AB8A84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE3A657C91F49F2984A609865F267F05 /* Pods-FMFColor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DDEDB08D61A7E71303F72637EDCB5E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3088BCE316094391671BA8A02F09B60A /* FMFColor.podspec */,
+				14446595AF84001EE029E59F9186749F /* LICENSE */,
+				5B25B71C5F5070B80A3977A79F678BD8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		73647528E33ECD2C8A3212C5457D30F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1A53C530BC800B378C41ED0ABACD9A /* FMFColor.modulemap */,
+				A5AC4A9F2FCF1AE69C213A0117620F59 /* FMFColor.xcconfig */,
+				2505C25A2F7AC4206E54462A7F2925EA /* FMFColor-dummy.m */,
+				E315F9C900B6546FFC9F2113D1A2CAC4 /* FMFColor-Info.plist */,
+				27573A13F2C192F6F565E18A44653FFF /* FMFColor-prefix.pch */,
+				6BB6262E4F8832BBC70617099632E910 /* FMFColor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FMFColor";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD4C078F51B6EB5A151CD47D6E53FBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99D7B2B84EDA34FDCC8B94DD717FB3E0 /* FMFColor.framework */,
+				8C39267947C85B8430111A403ABBE682 /* Pods_FMFColor_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F7928FE7B91D66967144525A2D0DB704 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CD4C078F51B6EB5A151CD47D6E53FBB3 /* Products */,
+				3CC60051C631C04E4686218646AB8A84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE3A657C91F49F2984A609865F267F05 /* Pods-FMFColor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59C549DAF028B3BF9CCE44E34278DC79 /* Pods-FMFColor_Tests.modulemap */,
+				317A8C780F9ADFE30E1F391E1EFE6395 /* Pods-FMFColor_Tests-acknowledgements.markdown */,
+				94A44DE1F2CC4DDB8F72E5F0B3C46325 /* Pods-FMFColor_Tests-acknowledgements.plist */,
+				15E7756F7C05BC9B97C224B29A674EF8 /* Pods-FMFColor_Tests-dummy.m */,
+				EDCAC5D34FD8AB8E80A750B9B781ED27 /* Pods-FMFColor_Tests-frameworks.sh */,
+				5EB05A92717865F9843013FF70D869D8 /* Pods-FMFColor_Tests-Info.plist */,
+				FA783231ED40E84E70B986761FDDF3D5 /* Pods-FMFColor_Tests-umbrella.h */,
+				E76BE009C580AB586E523C60CF3253D5 /* Pods-FMFColor_Tests.debug.xcconfig */,
+				8A36708AEC86C9B1BF893C351D4ED524 /* Pods-FMFColor_Tests.release.xcconfig */,
+			);
+			name = "Pods-FMFColor_Tests";
+			path = "Target Support Files/Pods-FMFColor_Tests";
+			sourceTree = "<group>";
+		};
+		F7928FE7B91D66967144525A2D0DB704 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				076B093D0C36B833782AFC1876BD8F7A /* FMFColor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA8EA5A37FF0BEC9B0ECBEC4B08842F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB098830727DBA689E4F834A344E0D41 /* Pods-FMFColor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7AA0A89F6E2671B8DE75DADC5ADA89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6A381A6D3BFA964F0E2972B670CAE /* FMFColor-umbrella.h in Headers */,
+				FE68C2E78D29A6BC67EF752EAB5AF015 /* FMFColor.h in Headers */,
+				0DF2686D21C7FE02DD9282A398AB89EB /* FMFHighColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		106847343CA151413C6B97F72EC3D94B /* Pods-FMFColor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86258231CA4E8A640723D33265183F39 /* Build configuration list for PBXNativeTarget "Pods-FMFColor_Tests" */;
+			buildPhases = (
+				CA8EA5A37FF0BEC9B0ECBEC4B08842F5 /* Headers */,
+				C1F24336DE6BE409E0A8F4E6C1BFFE28 /* Sources */,
+				A1F45DAB0B6107163DD531962C71B812 /* Frameworks */,
+				34D2EB157EDC14B28D7673B87F81D234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6257BFDEA1274CD052214A739411A000 /* PBXTargetDependency */,
+			);
+			name = "Pods-FMFColor_Tests";
+			productName = "Pods-FMFColor_Tests";
+			productReference = 8C39267947C85B8430111A403ABBE682 /* Pods_FMFColor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E15B14791C77CDFB899B0A8772374C9 /* FMFColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 554775EE964BB10F7A3C04013BFC093F /* Build configuration list for PBXNativeTarget "FMFColor" */;
+			buildPhases = (
+				EA7AA0A89F6E2671B8DE75DADC5ADA89 /* Headers */,
+				DE2ED44011E216EFFF4B1C3BA5DC5B92 /* Sources */,
+				29E5A020BF482813855D4D04ADC68D10 /* Frameworks */,
+				F3C9EEB9C70FF0927578A33B19D52F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMFColor;
+			productName = FMFColor;
+			productReference = 99D7B2B84EDA34FDCC8B94DD717FB3E0 /* FMFColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD4C078F51B6EB5A151CD47D6E53FBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E15B14791C77CDFB899B0A8772374C9 /* FMFColor */,
+				106847343CA151413C6B97F72EC3D94B /* Pods-FMFColor_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D2EB157EDC14B28D7673B87F81D234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C9EEB9C70FF0927578A33B19D52F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F24336DE6BE409E0A8F4E6C1BFFE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE160A763064D898170B0AF20BF7D5B /* Pods-FMFColor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE2ED44011E216EFFF4B1C3BA5DC5B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C816860A9E9E7827C2A966DA9F16F19F /* FMFColor-dummy.m in Sources */,
+				0AD593D7D5A12C7D869347E9DD25F894 /* FMFHighColor.m in Sources */,
+				48C120E3A8E5C64832DF526E889B94A1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6257BFDEA1274CD052214A739411A000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMFColor;
+			target = 6E15B14791C77CDFB899B0A8772374C9 /* FMFColor */;
+			targetProxy = FD7DC2285D2C84D98C97FC40518E8BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F1AF4FEC5D8831A12BDCFAD3E982312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76BE009C580AB586E523C60CF3253D5 /* Pods-FMFColor_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFColor_Tests/Pods-FMFColor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFColor_Tests/Pods-FMFColor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA9BE9782A28D71161C0803687244CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AC4A9F2FCF1AE69C213A0117620F59 /* FMFColor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMFColor/FMFColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMFColor/FMFColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMFColor/FMFColor.modulemap";
+				PRODUCT_MODULE_NAME = FMFColor;
+				PRODUCT_NAME = FMFColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEE362D94721FCDEE64066755B840760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AC4A9F2FCF1AE69C213A0117620F59 /* FMFColor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FMFColor/FMFColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMFColor/FMFColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMFColor/FMFColor.modulemap";
+				PRODUCT_MODULE_NAME = FMFColor;
+				PRODUCT_NAME = FMFColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C64FB6A908FF801223B9E7ABA445BB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A36708AEC86C9B1BF893C351D4ED524 /* Pods-FMFColor_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FMFColor_Tests/Pods-FMFColor_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FMFColor_Tests/Pods-FMFColor_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		554775EE964BB10F7A3C04013BFC093F /* Build configuration list for PBXNativeTarget "FMFColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9BE9782A28D71161C0803687244CC2 /* Debug */,
+				BEE362D94721FCDEE64066755B840760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86258231CA4E8A640723D33265183F39 /* Build configuration list for PBXNativeTarget "Pods-FMFColor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1AF4FEC5D8831A12BDCFAD3E982312 /* Debug */,
+				C64FB6A908FF801223B9E7ABA445BB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

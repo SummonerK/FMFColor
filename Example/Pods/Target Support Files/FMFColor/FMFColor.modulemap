@@ -1,0 +1,6 @@
+framework module FMFColor {
+  umbrella header "FMFColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

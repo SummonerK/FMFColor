@@ -1,0 +1,22 @@
+{
+  "name": "FMFColor",
+  "version": "0.1.0",
+  "summary": "A short description of FMFColor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SummonerK/FMFColor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SummonerK": "solluffy@163.com"
+  },
+  "source": {
+    "git": "https://github.com/SummonerK/FMFColor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FMFColor/Classes/**/*"
+}
