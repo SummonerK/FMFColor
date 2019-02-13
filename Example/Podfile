@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FMFColor_Tests' do
+  pod 'FMFColor', :path => '../'
+  
+  
+end
